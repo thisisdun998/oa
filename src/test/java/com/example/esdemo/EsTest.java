@@ -176,7 +176,7 @@ public class EsTest {
         // 3.2、获取桶
         List<StringTerms.Bucket> buckets = agg.getBuckets();
         // 3.3、遍历
-        for (StringTerms.Bucket bucket : buckets) {
+        for (StringTerms.Bucket bucket : buckets){
             // 3.4、获取桶中的key，即品牌名称
             System.out.println(bucket.getKeyAsString());
             // 3.5、获取桶中的文档数量
